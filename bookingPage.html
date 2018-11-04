@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="bookingPage.css">
+  </head>
+  <body>
+    <div class="content">
+      <nav class="menu-opener">
+    <div class="menu-opener-inner"></div>
+  </nav>
+  <nav class="menu">
+    <ul class="menu-inner">
+      <a href="homePage.html" class="menu-link">
+        <li>Home</li>
+      </a>
+      <a href="itineraryPage.html" class="menu-link">
+        <li>Trip Itinerary</li>
+      </a>
+      <a href="hotelPage.html" class="menu-link">
+        <li>Hotels</li>
+      </a>
+      <a href="bookingPage.html" class="menu-link">
+        <li>Booking</li>
+      </a>
+      <a href="aboutUsPage.html" class="menu-link">
+        <li>About Us</li>
+      </a>
+    </ul>
+  </nav>
+
+
+    <form action="/action_page.php">
+  <div class="container">
+    <h1>BOOK THIS HOLIDAY</h1>
+    <label for="number"><b></b></label>
+    <input type="number" placeholder="Number of Participants" name="number" value="">
+    <hr>
+
+    <label class="box" for="first name"><b></b></label>
+    <input type="text" placeholder="First Name" name="name" required>
+    <label for="last name"><b></b></label>
+    <input type="text" placeholder="Last Name" name="name" required>
+    <label for="telephone"><b></b></label>
+    <input type="text" placeholder="Telephone" name="telephone" required>
+
+    <label for="email"><b></b></label>
+    <input type="text" placeholder="Email Address" name="email" required>
+
+    <label for="date"><b></b></label>
+    <input type="text" placeholder="Preferred Date" name="date" required>
+
+    <label for="card number"><b></b></label>
+    <input type="text" placeholder="Card Number" name="card number" required>
+    <label for="card name"><b></b></label>
+    <input type="text" placeholder="Cardholder's Name" name="card name" required>
+    <label for="card code"><b></b></label>
+    <input type="text" placeholder="Card Verification Code" name="card name" required>
+    <hr>
+
+
+    <button type="submit" class="registerbtn">Confirm Booking</button>
+  </div>
+</form>
+<div class="footer">
+  <div class="contain">
+
+    <div class="col social">
+      <h1>Social</h1>
+      <ul>
+        <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+        <li><img  src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>MENU</h1>
+      <ul>
+        <li onclick="location.href='homePage.html';">Home</li>
+        <li onclick="location.href='bookingPage.html';">Booking</li>
+        <li onclick="location.href='itineraryPage.html';">Itinerary</li>
+        <li onclick="location.href='hotelPage.html';">Hotels</li>
+        <li onclick="location.href='aboutUsPage.html';">About Us</li>
+      </ul>
+    </div>
+  <div class="col">
+    <h1>Islands</h1>
+    <ul>
+      <li onclick="location.href='ngazidja.html';">Grande Comores</li>
+      <li onclick="location.href='ndzuani.html';">Anjouan</li>
+      <li onclick="location.href='mwali.html';">Moheli</li>
+    </ul>
+  </div>
+
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="bookingPage.js"></script>
+  </body>
+</html>
